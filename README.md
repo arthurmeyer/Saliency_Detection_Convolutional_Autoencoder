@@ -9,7 +9,12 @@ Specifically it generates saliency maps directly from raw pixels inputs.
 Both encoder and decoder are based on the VGG architecture.
 A specific penalty term has been added to the loss to improve the peormance aswell as direct conenctions between the convolutional and deconvolution layers.
 
+## Model overview
+![figure1](https://user-images.githubusercontent.com/26786663/27525317-b3026976-5a77-11e7-8767-8f4a06e5b696.jpg)
 
+## Samples solution
+From left to right: image, ground truth, baseline, baseline with direct connections, baseline with direct connections and contrast penalty term added to the loss
+![figure6-2e](https://user-images.githubusercontent.com/26786663/27525314-af6375da-5a77-11e7-882c-1646e016a0a3.jpg)
 
 ## Requirement
 - Python 2.7.6 or 3
